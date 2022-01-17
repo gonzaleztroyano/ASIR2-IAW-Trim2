@@ -1,0 +1,15 @@
+/* Cada navegador hace cosas raras, por tanto reiniciamos los estilos.  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#cabecera {
+    background-color: rgba(238, 220, 220, 0.781);
+    color:black;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
