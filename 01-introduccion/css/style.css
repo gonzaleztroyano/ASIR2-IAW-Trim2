@@ -13,3 +13,24 @@ div#cabecera {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.noticia {
+    padding-top: 20px;
+    margin: 0 auto;
+    align-self: center;
+    display: inline-block;
+}
+
+div.noticia > p {
+    text-align: justify;
+}
+
+#contenido {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.noticia > img {
+    float:left;
+    margin: 2%;
+}
