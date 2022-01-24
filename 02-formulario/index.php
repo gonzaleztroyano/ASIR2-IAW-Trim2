@@ -17,8 +17,6 @@ if(isset($_POST["enviar"])){
     $edad60_79=($_POST["edad"] == "60_79")?"checked":"";
     */
     ${"edad".$_POST["edad"]}='checked';
-
-
 }
 /*
     if(isset($_POST["edad"])){
