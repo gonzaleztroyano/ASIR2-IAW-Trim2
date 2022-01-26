@@ -19,7 +19,7 @@ if(isset($_GET["numero"])){
     <head>
         <?php
         if($generar == true) {
-            echo '<meta http-equiv="refresh" content="2"; url="http://localhost:3000/03-piramide/index.php?cosa=' . $cosa .'&numero=' . $filas . '">';
+            echo '<meta http-equiv="refresh" content="1;url=http://localhost:3000/03-piramide/index.php?cosa=' . $cosa .'&numero=' . $filas . '">';
         }
 
         ?>
