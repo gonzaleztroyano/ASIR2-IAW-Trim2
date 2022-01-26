@@ -1,4 +1,9 @@
-<php
+<?php
+
+if(isset($_POST["enviar"])){
+    $generar = true;
+    $filas = $_POST["numero"];
+}
 
 ?>
 <!DOCTYPE html>
@@ -13,17 +18,23 @@
     <body>
         <h1>Generador de pirámides</h1>
 
-<?php if(isset($_POST["enviar"])){
-
-    /*Si hay tema en el POST, se ha enviado número, construir pirámide */
-
-    } else {
-        <form action="index.php" method="post">
-        <label for="numero">Número: &nbsp;&nbsp;&nbsp;</label>
-        <input name="numero" id="numero" type="numero" tabindex="1" />    
-        <input type="submit" name="enviar" value="Enviar" >
+        <div id="formularo">
+            <form action="index.php" method="post">
+            <label for="numero">Número: &nbsp;&nbsp;&nbsp;</label>
+            <input name="numero" id="numero" type="numero" tabindex="1" />    
+            <input type="submit" name="enviar" value="Enviar" >
         </form>
-}
-?>
+        <br><hr><br>
+        </div>
+        
+        <?php
+            $astk = "*";
+            for ($i = 0; $i < $filas; $i++) {
+                echo $astk . "<br>";
+                $astk = $astk . "*";
+                
+            }
+        ?>
+
     </body>
 </html>
