@@ -11,8 +11,11 @@ if(isset($_GET["numero"])){
     $filas = $_GET["numero"];
     $cosa = $_GET["cosa"];
 }
-
-
+/*
+if ($_POST["PARAR"] = PARAR){
+    $generar = false;
+}
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,9 +33,14 @@ if(isset($_GET["numero"])){
         <title>Pirámides</title>
     </head>
     <body>
+        <div id="title" style="text-align: center;">
         <h1>Generador de pirámides</h1>
-
-        <div id="formularo">
+            <div id ="cacharro" style="">
+                <form action="index.php" method="get">
+                    <input type="submit" name="stop" value="Parar" > </br></br>
+                </form>
+        </div>
+        <div id="formulario">
             <form action="index.php" method="post">
             <label for="cosa">Caracter: &nbsp;&nbsp;&nbsp;</label>
             <input name="cosa" id="cosa" type="text" tabindex="1" />  
@@ -42,7 +50,7 @@ if(isset($_GET["numero"])){
         </form>
         <br><hr><br>
         </div>
-        <div>
+        <div style="text-align: center; font-size: 3em;">
         <?php
             for ($fila = 0; $fila < $filas; $fila++) {
                 for ($columna = 0; $columna < $fila; $columna++){
@@ -54,3 +62,5 @@ if(isset($_GET["numero"])){
         </div>
     </body>
 </html>
+
+<!-- color: '. sprintf("#%06X",)' -->
