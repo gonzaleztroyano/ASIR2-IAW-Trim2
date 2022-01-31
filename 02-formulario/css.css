@@ -1,0 +1,15 @@
+.error {
+    color: red;
+    font-weight: bold;
+}
+.error-details {
+    color: red;
+    font-weight: 400;
+}
+.background-error {
+    background-color: rgb(251, 216, 210);
+}
+
+#formulario {
+    padding-top: 7px;
+}

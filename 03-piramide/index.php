@@ -52,7 +52,7 @@ if ($_POST["PARAR"] = PARAR){
         </div>
         <div style="text-align: center; font-size: 3em;">
         <?php
-            for ($fila = 0; $fila < $filas; $fila++) {
+            for ($fila = 0; $fila <= $filas; $fila++) {
                 for ($columna = 0; $columna < $fila; $columna++){
                 echo "<span style=' color: #". rand(0,999999). ";'>" . $cosa. " </span>";
             }
