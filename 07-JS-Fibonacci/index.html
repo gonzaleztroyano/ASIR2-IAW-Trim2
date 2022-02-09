@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <script>
+        window.addEventListener("load",function(){
+            let pulsaBtn = document.getElementById("pulsaBtn")
+            let salida_cuenta = document.getElementById("salida_cuenta")
+            let salida_sucesion = document.getElementById("salida_sucesion")
+            let numClicks = 0
+            let sumando1 = 0
+            let sumando2 = 1
+            let suma = 0
+            let generado_salida = "0,1,"
+            pulsaBtn.addEventListener("click", function(){
+                numClicks = numClicks + 1
+                suma = sumando1 + sumando2
+                sumando1 = sumando2
+                sumando2 = suma
+                generado_salida = generado_salida + suma
+                salida_cuenta.innerHTML="Se ha generado hasta el número " + numClicks + " de Fibonacci"
+                salida_sucesion.innerHTML=generado_salida
+                generado_salida = generado_salida  + "," 
+            })
+        })
+//        document.writeln("Hola mundo JS!")
+//        alert('Hola Mundo')
+    </script>
+</head>
+<body>
+    <h1>Hola</h1>
+    <button id="pulsaBtn">Púlsame</button>
+    <div>
+        <p id="salida_cuenta"></p>
+        <p id="salida_sucesion"></p>
+    </div>
+</body>
+</html>

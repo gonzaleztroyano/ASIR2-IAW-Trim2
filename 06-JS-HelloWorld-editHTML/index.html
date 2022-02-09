@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+    <script>
+        window.addEventListener("load",function(){
+            let pulsaBtn = document.getElementById("pulsaBtn")
+            let numClicks = 0
+            let salida = document.getElementById("salida")
+            pulsaBtn.addEventListener("click", function(){
+                if (numClicks == 0) {
+                    salida.innerHTML="Biendenidx!"
+                    numClicks = numClicks + 1
+                } else {
+                    numClicks = numClicks + 1
+                    salida.innerHTML="Me has pulsado " + numClicks + " veces."
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>Hola</h1>
+    <button id="pulsaBtn">Púlsame</button>
+    <div>
+        <p id="salida"></p>
+    </div>
+</body>
+</html>
