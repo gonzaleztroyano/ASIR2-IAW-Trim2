@@ -1,5 +1,6 @@
 <?php
-include("./visit_counter.php")
+include("./visit_counter.php");
+include("./page_counter.php");
 ?>
 
 <!DOCTYPE html>
