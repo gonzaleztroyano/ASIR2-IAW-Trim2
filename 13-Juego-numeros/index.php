@@ -1,7 +1,7 @@
 <?php
 session_start();
-print_r($_SESSION);
-print_r($_POST);
+//print_r($_SESSION);
+//print_r($_POST);
 if (!isset($_SESSION['intentos'])){
     $_SESSION['intentos'] = 0;
     $_SESSION['rand'] = mt_rand(1,100);
@@ -38,14 +38,14 @@ if ($_POST['enviar'] == "Reiniciar"){
 </head>
 <body class="container">
     <h1>¡Casi imposible! ¡Juega ahora!</h1>
-    <h4>No vas a ganar nada. Pero por lo menos no pierdes, como en las casas de apuestas</h4>
+    <h4>No vas a ganar nada. Pero por lo menos no pierdes, como en las casas de apuestas.</h4>
     </br>
     <div id="msg" style="<?=$msg_style?>"><?=$msg?></div>
     </br>
     <p style="margin-left:15px;">Introduce un número entre 0 y 100 en la siguiente casilla. </p>
 
     <form action="index.php" method="post" style="margin-left:15px;">
-        <input type="number" name="number" id="number" min="0" max="100" required style="width: 100px;">
+        <input type="number" name="number" id="number" min="0" max="100" required style="width: 100px;" autofocus>
         <input type="submit" name="enviar" value="¡Quiero intentarlo!">
     </form>
     <div style="margin-top: 50px; margin-left:15px;"">
