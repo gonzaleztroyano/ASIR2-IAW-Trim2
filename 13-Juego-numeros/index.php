@@ -36,7 +36,7 @@ if ($_POST['enviar'] == "Reiniciar"){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Adívina el número!</title>
 </head>
-<body class="container">
+<body class="container" style="margin: 2%;">
     <h1>¡Casi imposible! ¡Juega ahora!</h1>
     <h4>No vas a ganar nada. Pero por lo menos no pierdes, como en las casas de apuestas.</h4>
     </br>
