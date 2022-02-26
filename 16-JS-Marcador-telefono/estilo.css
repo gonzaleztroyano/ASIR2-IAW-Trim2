@@ -1,0 +1,49 @@
+body {
+    margin-top: 5%;
+}
+h1#title{
+    text-align: center;
+    font-size: xxx-large;
+    margin-bottom: 5pc;
+}
+#marcador {
+    width: 30%;
+    margin-left: 20%;
+    display: inline-block;
+}
+
+#marcador button {
+    height: 5pc;
+    width: 5pc;
+    margin: 1pc;
+}
+
+#marcador button:hover {
+    font-weight: bolder;
+    font-size: large;
+}
+
+#marcador button#BtnR {
+    height: 5pc;
+    width: 12pc;
+    margin: 1pc;
+}
+
+#resultado {
+    width: 30%;
+    display: inline-block;
+    position: fixed;
+    margin-right: 20%;
+    margin-left: 1%;
+    margin-top: 7%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: xxx-large;
+}
+#n_telefono {
+    display: inline;
+    margin-left: 1.5pc;
+}
