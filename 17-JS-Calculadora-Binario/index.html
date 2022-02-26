@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Binario-Decimal</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <!--
+        Crea dos botones con 1 y con 0
+        Cada vez que pulses uno de ellos acumula un número binario en un h1
+        Crea un bontón que al pulsarlo calcule el valor de ese número en decimal
+        ---------------------------------
+        botón con 0     botón con 1
+        h1 resultado concatenar binario
+        botón
+        h3 resultado del número en decimal
+        ----------------------------------
+    -->
+</head>
+<body>
+    <div>
+        <h1 id="title">Calculadora Binario-Decimal</h1>
+    </div>
+    <div id="botones" class="centradito">
+        <button id="Btn0" value="0" class="botoncito">0</button>
+        <button id="Btn1" value="1" class="botoncito">1</button> <br>
+        <button id="BtnR" value="R" class="botoncito">Resetear</button>
+    </div>
+    <div id="binario" class="resultado centradito">
+        <h1>Binario: <span id="resultado_binario"></span></h1>
+    </div>
+    <hr class="centradito">
+    <div id="calcular" class="centradito">
+        <button id="BtnC" value="C" class="botoncito">Calcular</button>
+    </div>
+    <div id="decimal" class="resultado centradito">
+        <h1>Decimal: <span id="resultado_decimal"></span></h1>
+    </div>
+</body>
+</html>

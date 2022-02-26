@@ -1,0 +1,29 @@
+body {
+    margin-top: 2%;
+}
+h1#title{
+    text-align: center;
+    font-size: xxx-large;
+    margin-bottom: 5pc;
+}
+.botoncito {
+    height: 5pc;
+    width: 10pc;
+    margin: 1pc;
+}
+.botoncito:hover {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#BtnR {
+    width: 22pc;
+}
+.centradito{
+    margin: auto;
+    width: 30%;
+    margin-bottom: 2pc;
+    text-align: center;
+}
+.centradito.resultado{
+    text-align: left;
+}
