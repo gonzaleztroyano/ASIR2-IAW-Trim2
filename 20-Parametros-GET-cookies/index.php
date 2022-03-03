@@ -6,6 +6,18 @@
 
 // Si el parámetro no es alguno de estos se mostrará "Fruta no reconocida"
 
+
+if (isset($_GET['add'])) {
+    if ($_GET['add'] == 'apple'){
+        setcookie('apple',$_COOKIE['apple'] + 1);
+    } elseif ($_GET['add'] == 'peach') {
+        setcookie('peach',$_COOKIE['peach'] + 1);
+    } elseif ($_GET['add'] == 'pear') {
+        setcookie('pear',$_COOKIE['pear'] + 1);
+    }
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +30,7 @@
     <style>
         img{ width: 50px;}
         #selector, h3, h1, p {text-align: center;}
+        table, td, th {border: 1px solid black; margin: 0 auto; border-collapse: collapse; }
     </style>
 </head>
 <body>
@@ -40,6 +53,9 @@
     <a href="?add=pear"><img src="content/pear.png" alt="Seleccionar Pera"></a>
     <?php } ?>
     <br><br>
+</div>
+<div>
+    <?php include("tabla.php") ?>
 </div>
 </body>
 </html>
