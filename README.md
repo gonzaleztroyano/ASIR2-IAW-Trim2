@@ -21,6 +21,16 @@ Repositorio con material variado del módulo Implantación de Aplicaciones Web d
  * [14-DB-Ciclistas](./14-DB-Ciclistas)
  * [15-JS-Calculadora](./15-JS-Calculadora)
  * [16-JS-Marcador-telefono](./16-JS-Marcador-telefono)
+ * [17-JS-Calculadora-Binario](./17-JS-Calculadora-Binario)
+ * [18-Hola-Cansino](./18-Hola-Cansino)
+ * [19-Parametros-GET](./19-Parametros-GET)
+ * [20-Parametros-GET-cookies](./20-Parametros-GET-cookies)
+ * [21-sesiones-carrito](./21-sesiones-carrito)
+ * [22-nickname](./22-nickname)
+ * [23-DB-Clientes](./23-DB-Clientes)
+ * [24-DB-Clientes-Search](./24-DB-Clientes-Search)
+ * [25-Adivina-primos](./25-Adivina-primos)
+ * [26-Adivina-primos-enhanced](./26-Adivina-primos-enhanced)
 
 Este listado ha sido generado automáticamente con [este script en Python](https://github.com/gonzaleztroyano/gonzaleztroyano/blob/main/generate-readme-content.py).
 
