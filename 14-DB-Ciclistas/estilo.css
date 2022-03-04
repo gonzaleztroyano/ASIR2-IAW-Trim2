@@ -5,6 +5,11 @@
     border: 1px solid black;
 }
 
+#centrador {
+    margin: 0 auto;
+    padding: 1em;
+}
+
 table {
     width: 100%;
 }
