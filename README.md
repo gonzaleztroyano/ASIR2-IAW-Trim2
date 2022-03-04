@@ -3,6 +3,8 @@
 ## Pablo González - 2º ASIR
 Repositorio con material variado del módulo Implantación de Aplicaciones Web del Ciclo Formativo de Grado Superior en Adminstración de Sistemas Informáticos en Red.
 
+Puedes acceder a la versión publicada desde este enlace: **[iaw.gonzaleztroyano.es](https://iaw.gonzaleztroyano.es/?utm_source=Github&utm_campaign=link_repo)**
+
 ## Contenido del repositorio
 
  * [01-introduccion](./01-introduccion)
@@ -31,6 +33,10 @@ Repositorio con material variado del módulo Implantación de Aplicaciones Web d
  * [24-DB-Clientes-Search](./24-DB-Clientes-Search)
  * [25-Adivina-primos](./25-Adivina-primos)
  * [26-Adivina-primos-enhanced](./26-Adivina-primos-enhanced)
+ * [27-EX-JS-Buscaminas](./27-EX-JS-Buscaminas)
+ * [28-EX-JS-CalculadoraPropina](./28-EX-JS-CalculadoraPropina)
+ * [29-EX-Espacio-Privado](./29-EX-Espacio-Privado)
+ * [30-EX-BD-Foro](./30-EX-BD-Foro)
 
 Este listado ha sido generado automáticamente con [este script en Python](https://github.com/gonzaleztroyano/gonzaleztroyano/blob/main/generate-readme-content.py).
 
