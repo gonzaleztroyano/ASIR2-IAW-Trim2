@@ -23,8 +23,8 @@ if (isset($_POST['color'])) {
     <input type="color" name="color" id="color" required>
     <input type="submit" name="enviar" value="Enviar" >
     </form>
-    <a href="../page1.php">Página 1</a>
-    <a href="../page2.php">Página 2</a>
-    <a href="../config.php">Configuración</a>
+    <a href="./page1.php">Página 1</a>
+    <a href="./page2.php">Página 2</a>
+    <a href="./config.php">Configuración</a>
 </body>
 </html>

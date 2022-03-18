@@ -12,8 +12,8 @@ session_start();
 </head>
 <body style="background-color: <?=$_SESSION['color']?>;">
     <h1> Página 2</h1>
-    <a href="../page1.php">Página 1</a>
-    <a href="../page2.php">Página 2</a>
-    <a href="../config.php">Configuración</a>
+    <a href="./page1.php">Página 1</a>
+    <a href="./page2.php">Página 2</a>
+    <a href="./config.php">Configuración</a>
 </body>
 </html>
